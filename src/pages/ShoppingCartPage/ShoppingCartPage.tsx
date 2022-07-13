@@ -57,7 +57,7 @@ export const ShoppingCartPage = () => {
         return;
       }
       axios
-        .post("/api/create/order", {
+        .post("https://deliveryappservertest.herokuapp.com/api/create/order", {
           address,
           email,
           phone,
