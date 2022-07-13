@@ -1,0 +1,29 @@
+.header-wrapper{
+    height: 100px;
+    background:#C9E4EB;
+    .header-links{
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        padding: 0% 10% 0% 10%;
+        .logo{
+            width: 100px;
+            height: 85px;
+        }
+        .links{
+            margin-left: 30%;
+            display: flex;
+            justify-content: space-between;
+            width: 70%;
+            .header-link{
+                font-size: 20px;
+                width: 200px;
+                text-align: center;
+                margin-right: 30px;
+            }
+            
+        }
+    }
+}

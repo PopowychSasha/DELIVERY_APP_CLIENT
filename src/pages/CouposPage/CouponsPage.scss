@@ -1,0 +1,24 @@
+.coupon-page{
+    .coupon-item{
+        width: 400px;
+        height: 75px;
+        background-color: #C9E4EB;
+        border:2px solid green;
+        margin: auto;
+        margin-top: 10px;
+        border-radius: 10px;
+        .coupon-name{
+            text-align: center;
+            font-size: 18px;
+        }
+        .coupon-btn{
+            display: block;
+            margin: auto;
+            margin-top: 20px;
+            background-color:#FF9A0F;
+            border-radius:10px;
+            border:2px solid #FFFFFF;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.history-page{
+    .order-wrapper{
+        width: 70%;
+        margin: auto;
+        border:1px solid silver;
+        .total-price-title{
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+        .orders-items{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .item{
+                font-size: 23px;
+                text-align: center;
+                border:1px solid silver;
+                padding: 20px 20px;
+                margin-bottom: 25px;
+                border-radius:10px;
+                :first-child{
+                    font-size: 30px;
+                    font-weight: 700;
+                    margin-bottom: 10px;
+                }
+                >img{
+                    border-radius:10px;
+                }
+            }
+        }
+    }
+    .history-message{
+        text-align: center;
+        font-size: 50px;
+        margin-top: 200px;
+    }
+}
