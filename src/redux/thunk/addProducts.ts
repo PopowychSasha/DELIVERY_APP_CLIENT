@@ -4,7 +4,7 @@ import { addProductCreator } from "../actionCreators/product";
 export const addProducts = (shop: string): any => {
   return (dispatch: any) => {
     axios
-      .get(`/api/products/${shop}`)
+      .get(`https://deliveryappservertest.herokuapp.com/api/products/${shop}`)
       .then(({ data }: any) => {
         dispatch(addProductCreator(data));
       })
